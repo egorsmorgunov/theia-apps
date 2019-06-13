@@ -1,11 +1,12 @@
 # Theia applications WITH MY EDITIONS in latest tag with root access
 
 [Theia](https://github.com/theia-ide/theia) is a platform to develop Cloud & Desktop IDEs with modern web technologies.
+[![typefox.io](https://typefox.io/wp-content/uploads/2017/12/theia-cloud-vscode-1.jpg)](https://typefox.io/wp-content/uploads/2017/12/theia-cloud-vscode-1.jpg)
 
 This repository contains example Theia applications based on published Theia extension packages.
 
 - [Theia Docker](#theia-docker)
-  - [How to use `zloystrelok/theia` image?](#how-to-use-theiaidetheia-image)
+  - [How to use `zloystrelok/theia` image?](#how-to-use-zloystreloktheia-image)
   - [Image Variants](#image-variants)
     - [`zloystrelok/theia:latest`](#theiaidetheialatest)
 - [Theia Desktop](#theia-desktop)
