@@ -22,7 +22,7 @@ RUN addgroup theia && \
 RUN chmod g+rw /home && \
     mkdir -p /home/project && \
     chown -R theia:theia /home/theia && \
-    chmod u+s /bin/busybox \
+    chmod u+s /bin/busybox && \
     chown -R theia:theia /home/project;
 RUN apk add --no-cache git openssh bash mc busybox-suid
 ENV HOME /home/theia
