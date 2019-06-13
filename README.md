@@ -9,7 +9,6 @@ This repository contains example Theia applications based on published Theia ext
   - [Image Variants](#image-variants)
     - [`zloystrelok/theia:latest`](#theiaidetheialatest)
 - [Theia Desktop](#theia-desktop)
-- [Contributing](CONTRIBUTING.md)
 - [License](#license)
 
 ## Theia Docker
@@ -18,7 +17,7 @@ This repository contains example Theia applications based on published Theia ext
 
 `zloystrelok/theia` image contains an example of Theia based IDE for Web Developers.
 
-### How to use `theiaide/theia` image?
+### How to use `zloystrelok/theia` image?
 
 It is recommended to use [`zloystrelok/theia`](#typefoxtheianext) image to have a look at the current state.
 
