@@ -22,13 +22,14 @@ RUN addgroup theia && \
 RUN chmod g+rw /home && \
     mkdir -p /home/project && \
     chown -R theia:theia /home/theia && \
+    chmod u+s /bin/busybox \
     chown -R theia:theia /home/project;
-RUN apk add --no-cache git openssh bash
+RUN apk add --no-cache git openssh bash mc busybox-suid
 ENV HOME /home/theia
 WORKDIR /home/theia
 COPY --from=0 --chown=theia:theia /home/theia /home/theia
 EXPOSE 3000
 ENV SHELL /bin/bash
 ENV USE_LOCAL_GIT true
-USER theia
+USER root
 ENTRYPOINT [ "node", "/home/theia/src-gen/backend/main.js", "/home/project", "--hostname=0.0.0.0" ]
