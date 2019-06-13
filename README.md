@@ -1,4 +1,4 @@
-# Theia applications
+# Theia applications WITH MY EDITIONS in latest tag with root access
 [![Build Status](https://travis-ci.org/theia-ide/theia-apps.svg?branch=master)](https://travis-ci.org/theia-ide/theia-apps)
 
 [Theia](https://github.com/theia-ide/theia) is a platform to develop Cloud & Desktop IDEs with modern web technologies.
